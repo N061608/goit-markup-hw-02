@@ -4,62 +4,73 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First Homework!</title>
+    <title>My Second Homework!</title>
   
 
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="./css/styles.css" /> 
 
   <style>
-      /* Add your CSS styles for the buttons here */
+           
+  .link:hover, button:hover{
+    color:chocolate
+  }
+      
+  button {    
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+  }
 
-      body {
-          font-family: 'Roboto', sans-serif;
-          background-color: #f0f0f0;
-          margin: 0;
-          padding: 0;
-        }
+  .pagetitle {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+  
+  .midsection{
+    background-color:black;
+    opacity: 0.7;
+  }
 
-      .filter-button {
-          padding: 10px 20px;
-          background-color: #007bff;
-          color: #fff;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-          margin: 5px;
-      }
+h2{
+  text-align: center;
+  font-size: 30px;
+  
+}
+
   </style>
 
 
 </head>
+
 
 <body>
 
   <header>
 
       <nav>
-        <a href="./index.html">
+        <a class="link" href="./index.html">
           WebStudio 
         </a>
 
         <ul>
-          <li><a href="">Studio</a> </li>
-          <li><a href="">Portfolio</a> </li>
-          <li><a href="">Contacts</a> </li>
+          <li><a class="link" href="">Studio</a> </li>
+          <li><a class="link" href="">Portfolio</a> </li>
+          <li><a class="link" href="">Contacts</a> </li>
       </ul>
       </nav>
 
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com </a></li>
-          <li><a href="tel:+110001111111"> +11 (000) 111-11-11 </a></li>
+          <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com </a></li>
+          <li><a class="link" href="tel:+110001111111"> +11 (000) 111-11-11 </a></li>
         </ul>
       </address>
   </header>
 
 <main>
-  <section>
-      <h1>Effective Solutions for Your Business</h1>
+  <section class="midsection">
+      <h1 class="pagetitle">Effective Solutions <br> for Your Business</h1>
 
       <button type="button">Order Service </button>
 
@@ -73,7 +84,7 @@
       <!-- Page Header-->
       
       <div style="display: none;">
-        <p>The element is missing on the layout, but is needed for readers and search engines (it will be hidden in the next modules)
+        <p class="text">The element is missing on the layout, but is needed for readers and search engines (it will be hidden in the next modules)
         </p>
       </div>
     </header>
@@ -82,19 +93,19 @@
         <ul>
           <li>
             <h3>Strategy</h3>
-            <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+            <p class="text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
           </li>
           <li>
             <h3>Punctuality</h3>
-            <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+            <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
           </li>
           <li>
             <h3>Diligence</h3>
-            <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+            <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
           </li> 
           <li>
             <h3>Technologies</h3>
-            <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+            <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
           </li> 
         </ul>
   </section>
@@ -152,10 +163,10 @@
 
 <footer>
 
-  <a href="./index.html">
+  <a class="link" href="./index.html">
     WebStudio 
   </a>
-  <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+  <p class="text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
 
 </footer>
 
