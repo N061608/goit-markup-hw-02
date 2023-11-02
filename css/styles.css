@@ -53,7 +53,7 @@ body {
 
 
 
-[class="lists"], [class="headaddress"] {
+[class="lists"], [class="headadd"] {
   list-style: none;
   text-decoration: none;
   font-weight: 500;
@@ -70,20 +70,15 @@ body {
 
 [class^="listheader"]:hover{
   color: #404bbf;
-
 }
 
 [class^="listheader"]:focus{
   color: #404bbf;
-
 }
-
-
 
 .headadd{
   font-style: normal;
   list-style: none;
-
 }
 
 .addlist {
@@ -96,6 +91,10 @@ body {
   
 }
 
+.listcontact{
+  color:#434455;
+  text-decoration: none;
+}
 
 .listcontact:hover{
   color:#404bbf;
