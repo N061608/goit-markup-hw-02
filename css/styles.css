@@ -22,32 +22,41 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-
-
 }
 
+[class^="listheader"] {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
 
 .headerlogo{
   color: #2e2f42;
 }
 
-  .filter-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    margin: 5px;
-}
 
 
-[class^="listheader"] {
+[class="lists"], [class="headaddress"] {
   list-style: none;
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  color: #2e2f42;
 }
 
 .listheader1{
@@ -56,15 +65,16 @@ body {
 
 
 
-.list:hover, .list:hover{
+[class^="listheader"]:hover{
   color: #404bbf;
 
 }
 
-.list:focus{
+[class^="listheader"]:focus{
   color: #404bbf;
 
 }
+
 
 
 .headaddress{
@@ -83,9 +93,7 @@ body {
   
 }
 
-.listcontact:hover, .listcontact:focus{
-  color: #404bbf;
-}
+
 
 
 
