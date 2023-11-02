@@ -1,7 +1,11 @@
 
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #e74c3c;
+    :root {
+        --main-bg-color: #3498db;
+        --text-color: #ffffff;
+        --font-size: 16px;
+      }
+      
   }
   
   body {
