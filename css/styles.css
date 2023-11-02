@@ -35,10 +35,6 @@ body {
     margin: 5px;
 }
 
-.studio {
-  color: #2e2f42;
-
-}
 
 .list {
   list-style: none;
@@ -83,3 +79,11 @@ body {
 
 
 
+.port-footer{
+  background-color: #2e2f42;
+  color:#f4f4fd;
+}
+
+.logostudio {
+  color:#f4f4fd ;
+}
