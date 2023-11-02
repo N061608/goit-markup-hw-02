@@ -26,6 +26,11 @@ body {
 
 }
 
+
+.headerlogo{
+  color: #2e2f42;
+}
+
   .filter-button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -36,16 +41,20 @@ body {
 }
 
 
-.list {
+[class^="listheader"] {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration:none;
-
+  text-decoration: none;
 }
+
+.listheader1{
+  color: #2e2f42;
+}
+
+
 
 .list:hover, .list:hover{
   color: #404bbf;
@@ -58,12 +67,13 @@ body {
 }
 
 
-.head_address{
+.headaddress{
   font-style: normal;
+  list-style: none;
 
 }
 
-.list_contact {
+.listcontact {
   list-style: none;
   font-size: 16px;
   line-height: 1.5;
@@ -73,7 +83,7 @@ body {
   
 }
 
-.list_contact:hover, .list_contact:focus{
+.listcontact:hover, .listcontact:focus{
   color: #404bbf;
 }
 
