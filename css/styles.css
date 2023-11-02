@@ -13,6 +13,19 @@ body {
   
 }
 
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+
+
+}
+
   .filter-button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -21,4 +34,52 @@ body {
     cursor: pointer;
     margin: 5px;
 }
+
+.studio {
+  color: #2e2f42;
+
+}
+
+.list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration:none;
+
+}
+
+.list:hover, .list:hover{
+  color: #404bbf;
+
+}
+
+.list:focus{
+  color: #404bbf;
+
+}
+
+
+.head_address{
+  font-style: normal;
+
+}
+
+.list_contact {
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  
+}
+
+.list_contact:hover, .list_contact:focus{
+  color: #404bbf;
+}
+
+
 
