@@ -13,6 +13,10 @@ body {
   
 }
 
+.headernavi{
+  list-style: none;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -59,10 +63,9 @@ body {
   color: #2e2f42;
 }
 
-.listheader1{
+.listheader{
   color: #2e2f42;
 }
-
 
 
 [class^="listheader"]:hover{
@@ -77,13 +80,13 @@ body {
 
 
 
-.headaddress{
+.headadd{
   font-style: normal;
   list-style: none;
 
 }
 
-.listcontact {
+.addlist {
   list-style: none;
   font-size: 16px;
   line-height: 1.5;
@@ -94,6 +97,13 @@ body {
 }
 
 
+.listcontact:hover{
+  color:#404bbf;
+}
+
+.listcontact:focus{
+  color: #404bbf;
+}
 
 
 
