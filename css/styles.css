@@ -87,4 +87,71 @@
   
   
   
+  /* Checking of the First Section */
+
+  .fsection{
+    background-color: #2e2f42;
+
+  }
+
+  .fheader{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+
+  .fbutton{
+    background-color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    
+  }
+
+  .fbutton:hover, .fbutton:focus{
+    background-color: #404BBF;
+  }
+
+
+
+
+
+
+
+
   
+  /* Checking of the footer */
+
+  .pagefooter{
+    background-color: #2e2f42;
+
+  }
+
+  .flogo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    /* The logo contains an additional default 'link' class  */
+    text-decoration: none;
+
+  }
+
+  .fstudio{
+    color: #f4f4fd;
+
+  }
+
+  .fparagraph{
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+  }
