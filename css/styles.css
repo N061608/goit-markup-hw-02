@@ -56,7 +56,6 @@
   color: #2e2f42;
   /* In the first item of the list, the link has an additional default link class */
   text-decoration: none;
-
 }
 
 .listheader:hover{
@@ -146,8 +145,23 @@
 }
 
 
+/* Checking of the second Section */
 
+.two-header{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 
+}
+
+.two-header{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  
+}
 
 
 
