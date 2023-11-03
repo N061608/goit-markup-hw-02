@@ -16,3 +16,27 @@ body {
   
 }
 
+
+
+
+/* Checking of the header */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  /* The logo contains an additional default 'link' class */
+  text-decoration: none;
+  
+}
+
+/* Logo */
+.headerlogo{
+  text-decoration: none;
+  color: #2e2f42;
+
+}
