@@ -95,7 +95,7 @@
 
 }
 
-.headclass {
+.list-contact {
   list-style: none;
   font-size: 16px;
   line-height: 1.5;
@@ -105,11 +105,13 @@
   
 }
   
-.default-list:hover, .default-list:focus{
+.list-contact:hover{
   color: #404bbf;
 }
   
-  
+.list-contact:focus{
+  color: #404bbf;
+}
 
 
 
