@@ -30,8 +30,11 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   /* The logo contains an additional default 'link' class */
-  text-decoration: none;
   
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Logo */
@@ -39,4 +42,8 @@ body {
   text-decoration: none;
   color: #2e2f42;
 
+}
+
+.navigators{
+  list-style: none;
 }
