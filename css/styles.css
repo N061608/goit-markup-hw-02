@@ -95,7 +95,7 @@
 
 }
 
-.list_contact {
+.list-contact {
   list-style: none;
   font-size: 16px;
   line-height: 1.5;
@@ -105,7 +105,7 @@
   
 }
   
-.list_contact:hover, .list_contact:focus{
+.list-contact:hover, .list-contact:focus{
   color: #404bbf;
 }
   
