@@ -31,7 +31,7 @@
   }
 
 
-  
+
 /* Checking of the header */
 
   .headerlogo{
@@ -43,6 +43,10 @@
 .lists{
   list-style:none;
 
+}
+
+.headernavi{
+  list-style: none;
 }
 
 .listheader{
@@ -86,7 +90,7 @@
   
   }
   
-  [class^="list"] {
+ .listheader {
     list-style: none;
     font-weight: 500;
     font-size: 16px;
@@ -97,15 +101,16 @@
   
   }
   
-  [class^="list"]:hover,[class^="list"]:hover{
+  [.listheader:hover, .listheader:hover{
     color: #404bbf;
   
   }
   
-  [class^="list"]:focus{
+  .listheader:focus{
     color: #404bbf;
   
   }
+  
   
   
   .head_address{
