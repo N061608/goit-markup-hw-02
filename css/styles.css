@@ -1,4 +1,5 @@
 
+/* General requirements for the homepage */
 :root {
     :root {
         --main-bg-color: #3498db;
@@ -17,6 +18,9 @@
     
   }
   
+
+  /* Checking of the header */
+
   .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -25,31 +29,26 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    /* The logo contains an additional default 'link' class */
     text-decoration: none;
     
-  
   }
 
-
-
-/* Checking of the header */
-
+/* Logo */
   .headerlogo{
     text-decoration: none;
     color: #2e2f42;
 
   }
 
+/* <nav> */
 .lists{
   list-style:none;
-
 }
 
-.headernavi{
-  list-style: none;
-}
 
-.listheader{
+/*List*/
+.list{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -60,12 +59,12 @@
 
 }
 
-.listheader:hover{
+.list:hover{
   color: #404bbf;
 
 }
 
-.listheader:focus{
+.list:focus{
   color: #404bbf;
 
 }
@@ -111,7 +110,7 @@
   
   }
   
-  
+
   
   .head_address{
     font-style: normal;
