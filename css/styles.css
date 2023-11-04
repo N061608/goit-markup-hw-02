@@ -58,12 +58,11 @@ body {
 /* List* - still with error  */
 
 
-
 .navtwos, .address{
   list-style: none;
 }
 
-[class^="listheader"] {
+[class="navtwos"] {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
