@@ -29,8 +29,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  /* The logo contains an additional default 'link' class */
-  
+    
 }
 
 .link {
@@ -59,15 +58,12 @@ body {
 /* List* - still with error  */
 
 
-.default {
+
+.navtwos, .address{
   list-style: none;
 }
 
-.navtwos{
-  list-style: none;
-}
-
-[class^="listheader"]{
+#navi {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
