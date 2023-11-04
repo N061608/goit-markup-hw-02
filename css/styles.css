@@ -44,13 +44,18 @@ body {
 
 }
 
-ul.default-list{
+.headernavi{
   list-style: none;
+}
+
+ul.default-list{
+  
   font-style: normal;
 }
 
 /*List*/
-.listheader{
+[class="listheader"]{
+  list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
