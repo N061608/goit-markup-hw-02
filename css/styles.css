@@ -142,14 +142,14 @@ address{
 
 }
 
-.two-header{
+.two-header, .folink{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-h3{
+h3, .folink{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -170,5 +170,31 @@ h3{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  
+
+}
+
+
+
+
+
+/* Checking of the Fourth Section */
+
+.fosection{
+  background-color: #f4f4fd;
+
+}
+
+.foheader{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+
+}
+
+.folink{
+  background-color: #FFFFFF;
+
 }
