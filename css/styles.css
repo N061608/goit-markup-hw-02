@@ -55,7 +55,9 @@ body {
 
 
 
-
+nav{
+  list-style: none;
+}
 
 /*List* - still with error 
 
