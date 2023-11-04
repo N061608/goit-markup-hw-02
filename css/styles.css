@@ -53,7 +53,7 @@ body {
 } */
 
 /*List*/
-[class="default-list"]{
+[class^="listheader"]{
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -79,6 +79,6 @@ address{
   color: #404bbf;
 }
 
-.link:hover{
+.link:focus{
   color: #404bbf;
 }
