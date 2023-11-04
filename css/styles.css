@@ -142,14 +142,14 @@ address{
 
 }
 
-.two-header, .folink{
+.two-header{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-h3, .folink{
+h3{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -198,3 +198,4 @@ h3, .folink{
   background-color: #FFFFFF;
 
 }
+
