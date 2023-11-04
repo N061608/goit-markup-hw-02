@@ -4,7 +4,7 @@
   :root {
       --main-bg-color: #3498db;
       --text-color: #ffffff;
-      --font-size: 16px;
+      /*--font-size: 16px; */
     }
     
 }
@@ -48,13 +48,12 @@ body {
   list-style: none;
 }
 
-ul.default-list{
-  
+/* ul.default-list{
   font-style: normal;
-}
+} */
 
 /*List*/
-[class="listheader"]{
+[class="default-list"]{
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -65,6 +64,6 @@ ul.default-list{
   text-decoration: none;
 }
 
-.list{
+[class^=list]{
   letter-spacing: 0.02em;
 }
