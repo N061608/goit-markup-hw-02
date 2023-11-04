@@ -33,7 +33,7 @@ body {
   
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
@@ -44,8 +44,9 @@ a {
 
 }
 
-.default-list{
+ul.default-list{
   list-style: none;
+  font-style: normal;
 }
 
 /*List*/
@@ -57,4 +58,8 @@ a {
   color: #2e2f42;
   /* In the first item of the list, the link has an additional default link class */
   text-decoration: none;
+}
+
+.list{
+  letter-spacing: 0.02em;
 }
