@@ -54,12 +54,15 @@ body {
 }
 
 
+
+
+
+/*List* - still with error 
+
 .defaultnav{
   list-style: none;
 }
 
-
-/*List*/
 nav.defaultnav{
   font-weight: 500;
   font-size: 16px;
@@ -68,11 +71,11 @@ nav.defaultnav{
   color: #2e2f42;
 }
 
+*/
 
 
 
-
-/* Address */
+/* Address [ok] */
 address{
   font-style: normal;
 }
@@ -82,5 +85,41 @@ address{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+
+
+
+
+
+
+/* Checking of the First Section */
+
+.fsection{
+  background-color: #2e2f42 ;
+
+}
+
+.fheader{
+  font-size:  56px; ;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.fbutton{
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.fbutton:hover, .fbutton:focus{
+  background-color: #404BBF;
 }
 
