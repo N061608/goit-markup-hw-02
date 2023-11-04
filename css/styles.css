@@ -55,17 +55,19 @@ body {
 
 
 
-nav{
+
+/* List* - still with error  */
+
+
+.default {
   list-style: none;
 }
 
-/*List* - still with error 
-
-.defaultnav{
+.navtwos{
   list-style: none;
 }
 
-nav.defaultnav{
+[class^="listheader"]{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -73,7 +75,15 @@ nav.defaultnav{
   color: #2e2f42;
 }
 
-*/
+[class^="listheader"]:hover{
+  color: #404bbf;
+}
+
+[class^="listheader"]:focus{
+  color: #404bbf;
+}
+
+
 
 
 
