@@ -116,7 +116,7 @@ address{
   color: #ffffff;
 }
 
-.fbutton{
+.fbutton, .list {
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
