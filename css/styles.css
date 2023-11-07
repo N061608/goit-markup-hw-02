@@ -70,6 +70,10 @@ ul li {
   color: #2e2f42;
 }
 
+.first-item{
+  color: #2e2f42;
+}
+
 [class^="listheader"]:hover{
   color: #404bbf;
 }
