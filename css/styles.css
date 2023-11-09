@@ -1,17 +1,23 @@
+
 /* General requirements for the homepage */
 :root {
   :root {
-    --main-bg-color: #3498db;
-    --text-color: #ffffff;
-    /*--font-size: 16px; */
-  }
+      --main-bg-color: #3498db;
+      --text-color: #ffffff;
+      /*--font-size: 16px; */
+    }
+    
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: #434455;  
+  background-color: #FFFFFF;
+  
 }
+
+
+
 
 /* Checking of the header */
 
@@ -23,33 +29,40 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+    
 }
 
-.list {
+.link {
   text-decoration: none;
 }
 
-.list:hover {
+.link:hover{
   color: #404bbf;
 }
 
-.list:focus {
+.link:focus{
   color: #404bbf;
 }
+
 
 /* Logo */
-.headerlogo {
+.headerlogo{
   text-decoration: none;
   color: #2e2f42;
+
 }
 
+
+
+
 /* List* - still with error  */
+
 
 ul li {
   list-style: none;
 }
 
-[class^='first-item'] {
+[class^="first-item"] {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -57,39 +70,50 @@ ul li {
   color: #2e2f42;
 }
 
+.first-item{
+  color: #2e2f42;
+}
 
-
-
-[class^='listheader']:hover {
+[class^="listheader"]:hover{
   color: #404bbf;
 }
 
-[class^='listheader']:focus {
+[class^="listheader"]:focus{
   color: #404bbf;
 }
+
+
+
+
 
 /* Address [ok] */
-address {
+address{
   font-style: normal;
 }
 
-[class^='list'] {
+[class^=list]{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  background-color: #f4f4fd;
+  background-color: #F4F4FD;
 }
+
+
+
+
+
+
 
 /* Checking of the First Section */
 
-.fsection {
-  background-color: #2e2f42;
+.fsection{
+  background-color: #2e2f42 ;
   list-style: none;
 }
 
-.fheader {
-  font-size: 56px;
+.fheader{
+  font-size:  56px; ;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -107,34 +131,37 @@ address {
   cursor: pointer;
 }
 
-.fbutton:hover,
-.fbutton:focus {
-  background-color: #404bbf;
+.fbutton:hover, .fbutton:focus{
+  background-color: #404BBF;
 }
+
+
+
+
 
 /* Checking of the second Section */
 
-.second {
+.second{
   list-style: none;
 }
 
-.secondheader {
+.secondheader{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
 }
 
-.two-header {
+.two-header{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-h3,
-[class='listclass'] {
+h3, [class="listclass"]{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -142,43 +169,58 @@ h3,
   color: #2e2f42;
 }
 
+
+
+
+
 /* Checking of the Third Section */
 
-.thirdsec {
+.thirdsec{
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+
 }
+
+
+
+
 
 /* Checking of the Fourth Section */
 
-.fosection {
+.fosection{
   background-color: #f4f4fd;
+
 }
 
-.foheader {
+.foheader{
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+
 }
 
-.folink {
-  background-color: #ffffff;
+.folink{
+  background-color: #FFFFFF;
+
 }
+
+
 
 /* Checking of the footer */
 
-.pagefooter {
+.pagefooter{
   background-color: #2e2f42;
+
 }
 
-.flogo {
+.flogo{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -187,13 +229,15 @@ h3,
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+
 }
 
-.fstudio {
+.fstudio{
   color: #f4f4fd;
+
 }
 
-.fparagraph {
+.fparagraph{
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
