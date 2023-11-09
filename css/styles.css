@@ -62,13 +62,21 @@ ul li {
 }
 
 
-[class^='listheader']:hover {
+[class="list"] .link:hover {
+  color: #404bbf;
+}
+
+[class="list"] .link:focus {
+  color: #404bbf;
+}
+
+/* [class^='listheader']:hover {
   color: #404bbf;
 }
 
 [class^='listheader']:focus {
   color: #404bbf;
-}
+} */
 
 /* Address [ok] */
 address {
