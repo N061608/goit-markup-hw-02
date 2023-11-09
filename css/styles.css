@@ -1,10 +1,5 @@
-/* General requirements for the homepage */
 :root {
-  :root {
-    --main-bg-color: #3498db;
-    --text-color: #ffffff;
-    /*--font-size: 16px; */
-  }
+  --iris: #4d5ae5;
 }
 
 body {
@@ -12,8 +7,6 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-
-/* Checking of the header */
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -29,6 +22,30 @@ body {
   text-decoration: none;
 }
 
+.logotext {
+  color: #2e2f42;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-item .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-contact .link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .link:hover {
   color: #404bbf;
 }
@@ -37,98 +54,42 @@ body {
   color: #404bbf;
 }
 
-/* Logo */
-.headerlogo {
-  text-decoration: none;
-  color: #2e2f42;
-}
-
-/* List* - still with error  */
-
-ul li {
-  list-style: none;
-}
-
-[class^='first-item'] {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-[class="list"] .link {
-  color: #2e2f42;
-}
-
-
-[class="list"] .link:hover {
-  color: #404bbf;
-}
-
-[class="list"] .link:focus {
-  color: #404bbf;
-}
-
-/* [class^='listheader']:hover {
-  color: #404bbf;
-}
-
-[class^='listheader']:focus {
-  color: #404bbf;
-} */
-
-/* Address [ok] */
-address {
+.contacts {
   font-style: normal;
 }
 
-[class^='list'] {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  background-color: #f4f4fd;
-}
-
-/* Checking of the First Section */
-
-.fsection {
+.first-section {
   background-color: #2e2f42;
-  list-style: none;
 }
 
-.fheader {
+.header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #fff;
 }
 
-.fbutton {
+.button {
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 
-.fbutton:hover,
-.fbutton:focus {
+.button:hover {
   background-color: #404bbf;
 }
 
-/* Checking of the second Section */
-
-.second {
-  list-style: none;
+.button:focus {
+  background-color: #404bbf;
 }
 
-.secondheader {
+.list-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -136,15 +97,67 @@ address {
   color: #2e2f42;
 }
 
-.two-header {
+.list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-h3,
-[class='listclass'] {
+.third-header,
+.fourth-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.fourth-section {
+  background-color: #f4f4fd;
+}
+
+.list .list-item {
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+.logo-footer-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.btn-menu {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.btn-menu:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.btn-menu:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.list .list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -152,59 +165,9 @@ h3,
   color: #2e2f42;
 }
 
-/* Checking of the Third Section */
-
-.thirdsec {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-/* Checking of the Fourth Section */
-
-.fosection {
-  background-color: #f4f4fd;
-}
-
-.foheader {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.folink {
-  background-color: #ffffff;
-}
-
-/* Checking of the footer */
-
-.pagefooter {
-  background-color: #2e2f42;
-}
-
-.flogo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.fstudio {
-  color: #f4f4fd;
-}
-
-.fparagraph {
+.list .list-desc {
+  font-size: 16px;
   line-height: 1.5;
-  color: #f4f4fd;
   letter-spacing: 0.02em;
+  color: #434455;
 }
